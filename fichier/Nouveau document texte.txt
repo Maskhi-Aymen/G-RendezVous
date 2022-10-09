@@ -1,0 +1,15 @@
+f_radio.open(nf_radio.c_str());
+   f_mammo.open(nf_radio.c_str());            // ouverture des fichier lecture
+   f_analyse.open(nf_analyse.c_str());
+   f_controle.open(nf_controle.c_str());
+
+
+ fichier_tab_r(f_radio,r);
+   fichier_tab_m(f_mammo,m);     // fonctions pour stocker chaque ligne  du chaque fichier dans une case du tableau correspondant
+   fichier_tab_a(f_analyse,a);
+   fichier_tab_c(f_controle,c);
+
+
+
+wael:seddik:12:az:A:scanner
+salih:hh:11:az:B:scanner
